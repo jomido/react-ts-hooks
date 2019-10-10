@@ -1,0 +1,28 @@
+
+// You can do theming with SASS; we just have one theme today, though.
+
+$colorPrimary: rgb(0, 191, 102);
+$colorSecondary: rgb(255, 93, 85);
+$colorTertiary: rgb(250, 177, 103);
+
+$colorPrimaryLightened: lighten($colorPrimary, 40);
+$colorWhite: rgb(254, 254, 254);
+$colorBlack: rgb(10, 10, 10);
+
+$bezierBackIn: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$bezierBackOut: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+
+:export {
+
+    colorPrimary: $colorPrimary;
+    colorSecondary: $colorSecondary;
+    colorTertiary: $colorTertiary;
+
+    colorPrimaryLightened: $colorPrimaryLightened;
+
+    colorWhite: $colorWhite;
+    colorBlack: $colorBlack;
+
+    bezierBackIn: $bezierBackIn;
+    bezierBackOut: $bezierBackOut;
+}

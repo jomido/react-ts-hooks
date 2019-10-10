@@ -1,0 +1,36 @@
+.center-box {
+
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    display: flex;
+
+    // center all the things!
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    vertical-align: middle;
+    text-align: center;
+
+    > {
+
+        flex: 1;
+    }
+
+    &.justify-center {
+
+        justify-content: center;
+    }
+
+    &.justify-left {
+
+        justify-content: left;
+    }
+
+    &.justify-right {
+
+        justify-content: flex-end;
+    }
+}
