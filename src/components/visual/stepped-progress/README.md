@@ -4,8 +4,8 @@ A user-stepped progress bar of N steps.
 
 ## Props
 
-### `outs`: boolean[]
+### `steps`: boolean[]
 
-An array of booleans representing whether a
+An array of booleans representing whether a... [TODO]
 
-### `setIsOuts`: (outs: boolean[]) -> void
+### `setSteps`: (outs: boolean[]) -> void
