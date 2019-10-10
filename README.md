@@ -1,5 +1,5 @@
 
-# ts-react-components: Typescript React Components
+# react-ts-hooks: Typescript React Components
 
 This project was me testing the React waters again, but this time with:
  - the new-ish Hooks API, and
