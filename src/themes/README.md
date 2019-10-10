@@ -1,6 +1,6 @@
 # themes
 
-Anything to do with themeing goes here. (Colors, bordering, barriers,
+Anything to do with theming goes here. (Colors, bordering, barriers,
 arbitrary variables, etc.)
 
 These are SASS variables, but note that they can be imported and used in
